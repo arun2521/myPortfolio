@@ -1,0 +1,79 @@
+.project-section {
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    color: #a78bfa;
+  }
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #00ffff;
+}
+
+.project-card p {
+  color: #ccc;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+}
+
+.stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  background-color: #00ffff20;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #00ffff;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.project-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #00ffff;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.project-links a:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,67 @@
+.experience_section {
+  padding: 0rem 2rem;
+  background-color: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.experience_title {
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+  color: #a78bfa;
+}
+
+.experience_card {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.experience_card:hover {
+  transform: translateY(-5px);
+}
+
+.exp_header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f8fafc;
+}
+
+.exp_duration {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.exp_tech_stack {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exp_tech_stack span {
+  background-color: #334155;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.8rem;
+  font-size: 0.85rem;
+  color: #e0e7ff;
+}
+
+.exp_points {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+.exp_points li {
+  margin-bottom: 0.6rem;
+}
