@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
+  FaDownload,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -42,6 +43,14 @@ const Contact = () => {
               rel="noreferrer"
             >
               <FaGithub />
+            </a>
+            <a
+              href="/public/ARUN_FE.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDownload />
             </a>
           </div>
         </div>
